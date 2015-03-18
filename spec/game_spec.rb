@@ -6,8 +6,8 @@ describe FizzBuzz do
 
 
 		it "divisible_by_three should take a number to test" do
-	      expect(fizzbuzz.divisible_by_three(1)).to eq(1)  
-	    end
+      expect(fizzbuzz.divisible_by_three(1)).to eq(1)  
+    end
 
 		it "should know what is divisible by 3" do
 			expect(fizzbuzz.divisible_by_three(3)).to be true
